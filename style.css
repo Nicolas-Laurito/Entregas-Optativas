@@ -1,0 +1,61 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: 0;
+
+}
+
+#contenedorGeneral{
+    width: 300px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: 200px;
+    margin-top: 50px;
+    box-shadow: 4px 4px 15px 15px black;
+}
+
+.botones{
+    padding: 5px;
+    margin-left: 20px;
+
+}
+
+.mensaje{
+    color: red;
+    font-weight: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input{
+    margin: 5px;
+}
+
+#contenedorOpciones{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.botones1{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.divGeneral{
+    width: 300px;
+    height: 200px;
+    background-color: grey;
+    margin-left: 200px;
+    margin-top: 50px;
+    box-shadow: 4px 4px 15px 15px black;
+    display: flex;
+    flex-direction: column;
+}
+
+#montoIngresado{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
